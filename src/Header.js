@@ -35,7 +35,10 @@ function Header() {
         <SearchIcon className="header__searchIcon" />
       </div>
       <div className="header__nav">
-        <Link to={(!user && "/login") || (user && "/")}>
+        <Link
+          to={(!user && "/login") || (user && "/")}
+          style={{ textDecoration: "none" }}
+        >
           <div onClick={handleAuthentication} className="header__option">
             <span className="header__optionLineOne">
               Hello {!user ? "Guest" : user?.email}
@@ -53,7 +56,7 @@ function Header() {
           <span className="header__optionLineOne">Your</span>
           <span className="header__optionLineTwo">Prime</span>
         </div>
-        <Link to="/checkout">
+        <Link to="/checkout" style={{ textDecoration: "none" }}>
           <div className="header__optionCart">
             <ShoppingCartIcon />
             <span className="header__optionLineTwo header__cartCount">
