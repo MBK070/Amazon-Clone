@@ -11,6 +11,7 @@
   background-color: white;
   z-index: 1;
   border-radius: 10px;
+  transition: transform 0.5s ease-in-out 25ms;
 }
 
 .product img {
@@ -27,6 +28,12 @@
   justify-content: flex-start;
   height: 100px;
   margin-bottom: 15px;
+}
+
+.product:hover {
+  transform: scale(1.03);
+  /* transition: transform 0.5s; */
+  transition: transform 0.5s ease-in-out 25ms;
 }
 
 .product__price {
