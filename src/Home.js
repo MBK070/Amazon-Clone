@@ -16,8 +16,8 @@ function Home() {
           <div className="home__row">
             <Product
               id="1001"
-              title="Fire TV Stick with Alexa Voice Remote (inlcudes TV controls), HD
-          streaming device"
+              title="Fire TV Stick with Alexa Voice Remote (inlcudes TV Controls), HD
+          Streaming Device"
               price="49.99"
               image="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6457/6457959cv11d.jpg"
               rating={4}
