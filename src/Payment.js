@@ -38,8 +38,9 @@ function Payment() {
           </div>
         </div>
         <div className="payment__items">
-          {cart.map((item) => (
+          {cart.map((item, i) => (
             <ShoppingCart
+              key={i}
               id={item.id}
               title={item.title}
               image={item.image}

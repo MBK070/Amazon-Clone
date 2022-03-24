@@ -27,8 +27,9 @@ function Checkout() {
         <div className="checkout__block">
           <h3>Hello, {user?.email}</h3>
           <h2 className="checkout__title">Your Shopping Cart Items</h2>
-          {cart.map((item) => (
+          {cart.map((item, i) => (
             <ShoppingCart
+              key={i * Math.random()}
               id={item.id}
               title={item.title}
               image={item.image}

@@ -27,7 +27,7 @@ function ShoppingCart({ id, title, image, price, rating }) {
             {Array(rating)
               .fill()
               .map((_, i) => (
-                <StarIcon />
+                <StarIcon key={i * Math.random()} />
               ))}
           </div>
           <button onClick={removeFromCart}>Remove From Cart</button>

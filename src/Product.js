@@ -33,7 +33,7 @@ function Product({ id, title, image, price, rating }) {
           {Array(rating)
             .fill()
             .map((_, i) => (
-              <StarIcon />
+              <StarIcon key={i * Math.random()} />
             ))}
         </div>
       </div>
