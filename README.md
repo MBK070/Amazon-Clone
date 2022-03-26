@@ -1,7 +1,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7da6d0d6-f2c9-4ed4-9135-6a66d918a24e/deploy-status)](https://app.netlify.com/sites/amazon-clone-mbk/deploys)
 
 
-Amazon Clone webpage created using Reactjs & deloyed via Netlify
+Amazon Clone webpage created using Reactjs, Router-Dom v6.0, Firebase v9.0, Stripe  & deloyed via Netlify
 
 Hosting URL: https://amazon-clone-mbk.netlify.app/
 
