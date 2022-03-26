@@ -63,6 +63,10 @@
 }
 
 .payment__title {
+  margin-bottom: 10px;
+}
+
+.payment__title2 {
   margin-bottom: 30px;
 }
 
